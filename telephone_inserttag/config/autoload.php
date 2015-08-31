@@ -14,5 +14,5 @@
  */
 ClassLoader::addClasses(array
 (
-    'LinkBlank' => 'system/modules/link_tel/classes/LinkTel.php',
+    'TelephoneInserttag' => 'system/modules/telephone_inserttag/classes/TelephoneInserttag.php',
 ));

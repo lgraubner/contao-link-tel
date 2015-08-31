@@ -5,9 +5,9 @@
  *
  * Copyright (c) 2005-2014 Leo Feyer
  *
- * @package   link_tel
+ * @package   telephone_inserttag
  * @author    Lars Graubner
  * @license   MIT
  */
 
-$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('LinkTel', 'linkTelInserttag');
+$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('TelephoneInserttag', 'telephoneInserttag');

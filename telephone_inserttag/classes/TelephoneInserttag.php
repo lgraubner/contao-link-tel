@@ -5,16 +5,16 @@
  *
  * Copyright (c) 2005-2014 Leo Feyer
  *
- * @package   link_tel
+ * @package   telephone_inserttag
  * @author    Lars Graubner
  * @license   MIT
  */
 
-class LinkTel extends \Frontend {
-    public function linkTelInserttag($strTag) {
+class TelephoneInserttag extends \Frontend {
+    public function telephoneInserttag($strTag) {
         $arrSplit = explode("::", $strTag);
 
-        if($arrSplit[0] == "link_tel") {
+        if($arrSplit[0] == "telephone") {
             if(isset($arrSplit[1])) {
 
                 $label = $arrSplit[1];
