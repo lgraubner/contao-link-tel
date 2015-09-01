@@ -18,7 +18,7 @@ class TelephoneInserttag extends \Frontend {
             if(isset($arrSplit[1])) {
 
                 $label = $arrSplit[1];
-                $link = preg_replace(array('/^0\s*-*/', '/\s*(\/|-)\s*|\s+/'), array('+49-', '-'), $arrSplit[1]);
+                $link = preg_replace(array('/^0\s*-*/', '/\s*(\/|-)\s*|\s+/', '/\s*(0)\s*/'), array('+49-', '-', ''), $arrSplit[1]);
 
                 return sprintf("<a href=\"tel:%s\">%s</a>", $link, $label);
             }
