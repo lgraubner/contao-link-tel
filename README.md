@@ -5,7 +5,7 @@
 
 ## Usage
 
-This inserttag accepts any telephone number with any format. The raw input string will be used as label.
+This inserttag accepts telephone numbers in any format. The raw input string will be used as label.
 
 **Note**: Currently any leading zero will be converted to the german country code. For any other codes use it directly in the input string.
 
@@ -15,4 +15,4 @@ This inserttag accepts any telephone number with any format. The raw input strin
 
 ## Installation
 
-Copy the `telephone` folder to `system/modules` and you are done.
+Copy the `telephone_inserttag` folder to `system/modules` and you are done.
