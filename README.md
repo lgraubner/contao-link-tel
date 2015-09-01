@@ -15,4 +15,4 @@ This inserttag accepts telephone numbers in any format. The raw input string wil
 
 ## Installation
 
-Copy the `telephone_inserttag` folder to `system/modules` and you are done.
+Install via Contao backend or download latest version on [Contao Extension Repository](https://contao.org/de/erweiterungsliste/view/telephone_inserttag.de.html).
