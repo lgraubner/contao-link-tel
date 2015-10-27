@@ -1,13 +1,15 @@
 <?php
 
 /**
- * Contao Open Source CMS
+ * Inserttag to generate valid telephone links.
  *
- * Copyright (c) 2005-2014 Leo Feyer
- *
- * @package   telephone_inserttag
- * @author    Lars Graubner
- * @license   MIT
+ * @copyright   Copyright (c) 2015, Lars Graubner
+ * @author      Lars Graubner <mail@larsgraubner.de>
+ * @license     LGPL-3.0+
+ * @link        https://github.com/lgraubner/contao-telephone-inserttag
  */
 
+/**
+ * Hooks
+ */
 $GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('TelephoneInserttag', 'telephoneInserttag');
