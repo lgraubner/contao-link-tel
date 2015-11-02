@@ -23,9 +23,9 @@ class TelephoneInserttag extends \Frontend
 	{
 		$arrSplit = explode("::", $strTag);
 
-		if($arrSplit[0] == "telephone")
+		if ($arrSplit[0] == "telephone" || $arrSplit[0] == "cache_telephone")
 		{
-			if(isset($arrSplit[1]))
+			if (isset($arrSplit[1]))
 			{
 
 				$label = $arrSplit[1];
