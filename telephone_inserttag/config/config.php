@@ -12,4 +12,4 @@
 /**
  * Hooks
  */
-$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('TelephoneInserttag', 'telephoneInserttag');
+$GLOBALS['TL_HOOKS']['replaceInsertTags'][] = array('TelephoneInserttag', 'replaceTelephoneInserttag');

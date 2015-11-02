@@ -9,7 +9,7 @@
  * @link        https://github.com/lgraubner/contao-telephone-inserttag
  */
 
-class TelephoneInserttag extends \Frontend
+class TelephoneInserttag
 {
 
 	/**
@@ -19,7 +19,7 @@ class TelephoneInserttag extends \Frontend
 	 *
 	 * @return boolean
 	 */
-	public function telephoneInserttag($strTag)
+	public function replaceTelephoneInserttag($strTag)
 	{
 		$arrSplit = explode("::", $strTag);
 
